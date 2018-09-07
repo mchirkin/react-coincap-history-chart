@@ -25,8 +25,11 @@ const locale = {
 };
 
 type Props = {
+  /** Full coin name */
   coinName: string,
+  /** Ticker symbol */
   coinSymbol: string,
+  /** Language */
   lang?: 'RU' | 'EN',
 };
 
@@ -124,7 +127,7 @@ export default class CoinChart extends React.Component<Props, State> {
     if (info && info.time && this.priceInfo) {
       this.priceInfo.updatePriceData({
         time: info.time,
-        rate: `${info.rate} $`,
+        rate: `${info.rate.toFixed(2)} $`,
       });
 
       return;
@@ -135,7 +138,7 @@ export default class CoinChart extends React.Component<Props, State> {
     if (this.priceInfo) {
       this.priceInfo.updatePriceData({
         time: lastPrice.name,
-        rate: `${lastPrice.uv} $`,
+        rate: `${lastPrice.uv.toFixed(2)} $`,
       });
     }
   }
