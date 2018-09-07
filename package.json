@@ -1,0 +1,41 @@
+{
+  "name": "react-coincap-history-chart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow"
+  },
+  "keywords": [],
+  "author": "Maxim Chirkin <fs0ul92@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "recharts": "^1.1.0",
+    "styled-components": "^3.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "docz": "^0.11.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.80.0",
+    "webpack": "^4.17.2"
+  }
+}
