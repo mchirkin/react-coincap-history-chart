@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "flow": "flow",
-    "build": "NODE_ENV=production webpack --progress"
+    "build": "NODE_ENV=production webpack --progress",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   },
   "keywords": [],
   "author": "Maxim Chirkin <fs0ul92@gmail.com>",
